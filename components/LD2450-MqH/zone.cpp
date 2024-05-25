@@ -3,6 +3,7 @@
 namespace esphome::ld2450
 {
     const char *TAG = "Zone";
+    int AllTargetCounter=0;
 
     bool is_convex(std::vector<Point> polygon)
     {
